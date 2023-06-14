@@ -1,0 +1,8 @@
+.home-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh !important;
+    min-height: 670;
+    background-color: #24263B;
+}
