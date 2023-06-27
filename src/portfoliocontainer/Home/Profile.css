@@ -50,6 +50,11 @@
 }
 
 .profile-options .highlighted-btn {
+  background-color: #ff5823;
+  margin-left: 20px;
+}
+.profile-options .primary-btn {
+  background-color: #ff5823;
   margin-left: 20px;
 }
 

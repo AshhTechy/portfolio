@@ -11,8 +11,16 @@
     background-color: #24263B;
   }
  header nav a{
+  font-size: "50%";
   color: #ff5823;
  }
+ 
+ .b:hover{
+  text-decoration: dotted;
+  text-decoration-color: white;
+ }
+
+
 .btn-primary{
   background-color: #ff5823;
 }

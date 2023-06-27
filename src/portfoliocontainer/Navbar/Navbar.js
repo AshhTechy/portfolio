@@ -1,25 +1,34 @@
 import React from "react";
 import "./Navbar.css";
+import { Link,useNavigate } from "react-router-dom";
+
 export default function Navbar() {
+  const navigate = useNavigate();
+
   return (
     <div>
       <header>
         <nav>
           <ul className="nav__links">
             <li>
-              <a class="btn highlighted-btn" href="#" role="button">
+              <a class="b" href="#" role="button" onClick={() => navigate("/")}>
                 Home
               </a>
             </li>
             <li>
-            <a class="btn highlighted-btn" href="#" role="button">
-                Projects
+              <a
+                class="b"
+                href="#"
+                role="button"
+                onClick={() => navigate("Aboutme")}
+              >
+                About Me
               </a>
             </li>
             <li>
-            <a class="btn highlighted-btn" href="#" role="button">
-                About Me
-              </a>
+              <Link to="/Contact" class="b" role="button">
+                Contact Me
+              </Link>
             </li>
           </ul>
         </nav>
